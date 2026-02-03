@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main() {
+    int arr[] = {2,4,6,8,10,12,14,16,18};
+    int i;
+    printf("Traversing: \n");
+    for (i = 0; i < 20; i++) {
+        printf("arr[%d] = %d\n", i, arr[i]);
+    }
+    return 0;
+}
